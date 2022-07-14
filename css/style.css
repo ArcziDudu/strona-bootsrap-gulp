@@ -1,0 +1,303 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media (min-width: 992px) {
+  .aboutus-info .container {
+    padding: 0;
+  }
+  .aboutus-info .container .aboutus-text-right {
+    padding-left: 2em;
+    text-align: left;
+  }
+  .aboutus-info .container .row .aboutus-img {
+    height: auto;
+    -webkit-transform: skew(-15deg);
+            transform: skew(-15deg);
+  }
+  .aboutus-info .aboutus-text {
+    padding: 5em 0;
+    -webkit-transform: skew(-15deg);
+            transform: skew(-15deg);
+  }
+  .aboutus-info .aboutus-text-left {
+    padding-right: 2em;
+    text-align: right;
+  }
+}
+.aboutus-shadow {
+  -webkit-box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+          box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+@media (min-width: 1400px) {
+  .carousel-item {
+    height: 600px;
+  }
+  .carousel-img-one {
+    background-image: url(/dist/img/main-carousel-1-hq.jpg);
+  }
+  .carousel-img-two {
+    background-image: url(/dist/img/main-carousel-2-hq.jpg);
+  }
+  .carousel-img-three {
+    background-image: url(/dist/img/main-carousel-3-hq.jpg);
+  }
+}
+html {
+  font-size: 62.5%;
+}
+
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.top-hero {
+  position: relative;
+  height: 300px;
+  background-size: cover;
+  z-index: 0;
+}
+
+.top-hero-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  font-size: 3.6rem;
+  text-transform: uppercase;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+}
+body nav {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+body nav .container .navbar-brand {
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-transform: none;
+}
+body nav .container .navbar-toggler {
+  font-size: 3rem;
+}
+body header {
+  font-size: 2rem;
+}
+body header .carousel-item {
+  position: relative;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+body header .carousel-img-one {
+  background-image: url("../dist/img/main-carousel-1.jpg");
+}
+body header .carousel-img-two {
+  background-image: url("../dist/img/main-carousel-2.jpg");
+}
+body header .carousel-img-three {
+  background-image: url("../dist/img/main-carousel-3.jpg");
+}
+body main .home-boxes {
+  padding: 5em 0;
+}
+body main .home-boxes .home-box i {
+  font-size: 4rem;
+}
+body main .home-boxes .home-box h3 {
+  font-size: 2.6rem;
+}
+body main .home-passion {
+  position: relative;
+  height: 350px;
+  background-image: url("../src/img/sunset-685927_1280.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+body main .home-brand h3 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+body footer {
+  font-size: 1.6rem;
+}
+body .aboutus-hero {
+  background-image: url("../dist/img/hd-wallpaper-2025863_1920.jpg");
+  background-position: bottom;
+}
+body .aboutus-info {
+  background-color: rgb(248, 248, 248);
+}
+body .aboutus-info .container {
+  padding: 2em 0.5em;
+}
+body .aboutus-info .aboutus-text {
+  padding: 1.8em;
+}
+body .aboutus-info .aboutus-text h3 {
+  margin-bottom: 0.5em;
+  font-size: 2.3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-text-decoration: underline #007bff;
+          text-decoration: underline #007bff;
+}
+body .aboutus-info .aboutus-text-right {
+  text-align: right;
+}
+body .aboutus-info .aboutus-img {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .aboutus-bottom {
+  font-size: 2rem;
+}
+body .aboutus-bottom i {
+  font-size: 3rem;
+}
+body .aboutus-bottom h3 {
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+body .aboutus-hero-services {
+  background-image: url("../dist/img/car-3126964_1280.jpg");
+  background-position: 0 75%;
+}
+body .service-hero-box {
+  position: relative;
+  text-align: center;
+  line-height: 300px;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  color: #fff;
+  height: 300px;
+  z-index: 1;
+  cursor: pointer;
+  border-radius: 8px;
+}
+body .service-hero-box .hero-shadow {
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  z-index: -1;
+}
+body .box-one {
+  background-image: url("../dist/img/engine.jpg");
+  background-position: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+body .box-one:hover {
+  background-position: left;
+}
+body .box-two {
+  background-image: url("../dist/img/visual.jpg");
+  background-position: bottom;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+body .box-two:hover {
+  background-position: bottom right;
+}
+body .box-three {
+  background-image: url("../dist/img/car-audio.jpg");
+  background-position: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+body .box-three:hover {
+  background-position: right;
+}
+body .box-four {
+  background-image: url("../dist/img/allinone.jpg");
+  background-position: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+body .box-four:hover {
+  background-position: right;
+}
+body .aboutus-hero-projects {
+  background-image: url("../dist/img/project-hero.jpg");
+  background-position: 0 55%;
+}
+body .projects .bottom {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .projects .bottom .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  height: 20px;
+  padding: 20px;
+}
+body .projects .bottom p {
+  text-align: right;
+  font-size: 1.6rem;
+}
+body .contact-hero {
+  background-image: url("../dist/img/shelby-3821715_1920.jpg");
+  background-position: 0 40%;
+}
+body .contact h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.6rem;
+}
+body .contact .contact-logo {
+  font-size: 3rem;
+}
+body .contact input, body .contact select, body .contact textarea {
+  font-size: 1.6rem;
+}
+body .contact .btn {
+  padding: 0.3em 0.8em;
+  font-size: 2rem;
+}
+body .contact-map iframe {
+  width: 100%;
+  min-height: 400px;
+}/*# sourceMappingURL=style.css.map */

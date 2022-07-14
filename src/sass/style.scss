@@ -1,0 +1,267 @@
+*,
+::after,
+::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import './medium';
+@import './large';
+html{
+    font-size: 62.5%;
+}
+.hero-shadow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.6);
+    z-index: -1;
+}
+.top-hero{
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    z-index: 0;
+}
+.top-hero-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 3.6rem;
+    text-transform: uppercase;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+
+    
+    //navigation
+
+    nav{
+        font-size: 2rem;
+        text-transform: uppercase;
+        .container{
+            .navbar-brand{
+                font-size: 2.4rem;
+                font-weight: bold;
+                text-transform: none;
+            }
+            .navbar-toggler{
+                font-size: 3rem;
+            }
+
+        }
+    }
+    //header
+    header{
+        font-size: 2rem;
+        .carousel-item{
+            position: relative;
+            height: 400px;
+            background-position: center;
+            background-size: cover;
+            z-index: 0;
+        }
+        .carousel-img-one{
+            background-image: url('../dist/img/main-carousel-1.jpg');
+        }
+        .carousel-img-two{
+            background-image: url('../dist/img/main-carousel-2.jpg');
+        }
+        .carousel-img-three{
+            background-image: url('../dist/img/main-carousel-3.jpg');
+        }
+    }
+    main{
+        .home-boxes{
+            padding: 5em 0;
+            .home-box{
+                i{
+                    font-size: 4rem;
+                }
+                h3{
+                    font-size: 2.6rem;
+                }
+            }
+        }
+        .home-passion{
+            position: relative;
+            height: 350px;
+
+            background-image: url('../src/img/sunset-685927_1280.jpg');
+            background-position: center;
+            background-size: cover;
+            z-index: 0;
+        }
+        .home-brand{
+            h3{
+                font-size: 3rem;
+                font-weight: bold;
+            }
+        }
+    }
+    //footer
+    footer{
+        font-size: 1.6rem;
+    }
+    //aboutus
+    .aboutus-hero{
+        background-image: url('../dist/img/hd-wallpaper-2025863_1920.jpg');
+        background-position: bottom;
+    }
+    .aboutus-info{
+        background-color: rgb(248, 248, 248);
+        .container{
+            padding: 2em 0.5em;
+        }
+        .aboutus-text{
+            padding: 1.8em;
+            h3{
+                margin-bottom: 0.5em;
+                font-size: 2.3em;
+                text-transform: uppercase;
+                font-weight: bold;
+                text-decoration: underline #007bff;
+            }
+        }
+        .aboutus-text-right{
+            text-align: right;
+        }
+        .aboutus-img{
+            height: 300px;
+            object-fit: cover;
+        }
+    }
+    .aboutus-bottom{
+        font-size: 2rem;
+        i{
+            font-size: 3rem;
+        }
+        h3{
+            font-size: 2.3rem;
+            font-weight: bold;
+        }
+    }
+    //services
+    .aboutus-hero-services{
+        background-image: url('../dist/img/car-3126964_1280.jpg');
+        background-position: 0 75%;
+    }
+    .service-hero-box{
+        position: relative;
+      text-align: center;
+      line-height: 300px;
+      font-size: 2.4rem;
+      text-transform: uppercase;
+      color: #fff;
+      height: 300px;
+      z-index: 1;
+      cursor: pointer;
+      border-radius: 8px;
+      .hero-shadow{
+          border-radius: 8px;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0, .6);
+        position: absolute;
+        z-index: -1;
+      }
+    }
+    .box-one{
+        background-image: url('../dist/img/engine.jpg');
+        background-position: center;
+        transition: .3s;
+        
+        &:hover{
+            background-position: left;
+        }
+    }
+    .box-two{
+        background-image: url('../dist/img/visual.jpg');
+        background-position: bottom;
+        transition: .3s;
+        
+        &:hover{
+           background-position: bottom right;
+        }
+    }
+    .box-three{
+        background-image: url('../dist/img/car-audio.jpg');
+        background-position: center;
+        transition: .3s;
+        
+        &:hover{
+            background-position: right;
+        }
+    }
+    .box-four{
+        background-image: url('../dist/img/allinone.jpg');
+        background-position: center;
+        transition: .3s ;
+        
+        &:hover{
+            background-position: right;
+        }
+    }
+    //projects
+    .aboutus-hero-projects{
+        background-image: url('../dist/img/project-hero.jpg');
+        background-position: 0 55%;
+    }
+    .projects{
+        .bottom{
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .btn{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-transform: uppercase;
+                font-size: 1.2rem;
+                height: 20px;
+                padding: 20px;
+               
+            }
+            p{
+                text-align: right;
+                font-size: 1.6rem;
+            }
+        }
+        
+    }
+    //kontakt
+    .contact-hero{
+        background-image: url('../dist/img/shelby-3821715_1920.jpg');
+        background-position: 0 40%;
+    }
+    .contact{
+        h2{
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 2.6rem;
+        }
+        .contact-logo{
+            font-size: 3rem;
+        }
+        input, select, textarea{
+            font-size: 1.6rem;
+        }
+        .btn{
+            padding: 0.3em  0.8em;
+            font-size: 2rem;
+        }
+    }
+    .contact-map{
+        iframe{
+            width: 100%;
+        min-height: 400px;
+        }
+    }
+
+}
